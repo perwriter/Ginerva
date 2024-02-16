@@ -12,10 +12,10 @@ const Left = () => {
       <span className="text-mary"> Tour the World</span>
     </h1>
     <p data-aos="fade-up" data-aos-delay="100" className=" text-white text-lg">
-      We get you Necesaaary Travel DucmunetsUnlocking Your Career Potential: Where{" "}
-      <span className="text-mary font-semibold">Visa</span> and{" "}
+      We get you Necesaaary Travel Ducmunets: Starting with{" "}
+      <span className="text-mary font-semibold">Visa</span> and offer{" "}
       <span className=" font-semibold text-mary">Advice</span>{" "}
-      On how to tour the world "
+      On best Places to visit for "
       <span className="text-mary font-bold">_Free</span>".
     </p>
     <button

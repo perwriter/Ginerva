@@ -4,11 +4,11 @@ import AboutUs from "./Pages/AboutUs";
 import Contact from "./Pages/Contact";
 import Destinations from "./Pages/Destinations";
 import Footer from "./components/Footer";
-import Hero from "./Pages/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./Pages/Services";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 import ErrorPage from "./Pages/ErrorPage";
+import Home from "./Pages/Home";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
     <Router>
     <Navbar/>
     <Routes>
-    <Route index element={<Hero />} />
+    <Route index element={<Home />} />
     <Route path="/services" element={<Services />} />
     <Route path="/destination" element={<Destinations />} />
     <Route path="/aboutus" element={<AboutUs />} />
