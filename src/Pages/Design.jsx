@@ -22,7 +22,7 @@ const Design = () => {
           fullScreen: false,
           background: {
             // color: {
-            //   value: "#0d47a1",
+            //   value: "#6fc6f310",
             // },
           },
           fpsLimit: 60,
